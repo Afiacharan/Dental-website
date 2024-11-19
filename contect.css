@@ -1,0 +1,147 @@
+/* navbar........................ */
+.nav-link {
+    font-weight: bold;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+    color: white;
+  }
+  .navbar {
+    box-shadow: rgba(0, 0, 0, 0) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    position: sticky;
+    top: 0;
+  
+  }
+  .nav-link:hover {
+    color: #0056b3; /* Adjust color as needed */
+    border-bottom: 2px solid #0056b3; 
+  }
+  /* ........................... */
+
+
+.custom-h4 {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .custom-p {
+    margin-bottom: 20px;
+    font-size: 1rem;
+    color: #ffffff;
+  }
+  
+  i {
+    color: #ffffff; /* Customize icon color */
+  }
+  .custom-width {
+    max-width: 900px; /* Adjust width as needed */
+  }
+  .colum{
+    width: 70%;
+    background-color: #1794aa;
+  }
+
+.btn{
+  background-color:#1794aa;
+  color: white;
+}
+
+
+
+
+/* foter//////////////////////////////////////////////////////////////////////// */
+footer {
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.footer-logo {
+width: 150px;
+background-color: rgb(238, 225, 225);
+}
+
+.footer-note {
+font-size: 1rem;
+color: #000000;
+margin-top: 10px;
+}
+
+.footer-heading {
+font-size: 1.25rem;
+margin-bottom: 20px;
+font-weight: bold;
+}
+
+footer p,
+footer a {
+color: #000000;
+}
+
+footer a {
+text-decoration: none;
+}
+
+footer a:hover {
+text-decoration: underline;
+}
+
+.list-unstyled li {
+margin-bottom: 10px;
+}
+
+.fab {
+font-size: 4rem;
+}
+
+@media (max-width: 768px) {
+.footer-heading {
+  font-size: 1.1rem;
+}
+
+.fab {
+  font-size: 1.25rem;
+}
+}
+.search-form {
+display: flex;
+align-items: center;
+margin-top: 20px;
+}
+
+.search-form .form-control {
+flex: 1;
+margin-right: 10px;
+}
+
+.search-form .btn {
+white-space: nowrap;
+}
+
+
+.iconss i {
+  font-size: 1.5rem;
+  color: black;
+  transition: color 0.3s ease;
+}
+.contact-heading {
+  background-image: url('imges/back.jpeg'); /* Path to your background image */
+  background-size: cover; /* Make sure the image covers the whole element */
+  background-position: center; /* Center the background image */
+  color: white; /* Text color */
+  padding: 20px; /* Padding around the text */
+  border-radius: 5px; /* Optional: for rounded corners */
+  display: inline-block; /* Fits the width of the text */
+  height: 200px; /* Set a specific height */
+  width: 100%; /* Optional: make it full-width */
+  text-align: center; /* Center align text */
+  line-height: 200px; /* Center vertically */
+}
+/* hover-effect.................. */
+
+.hover-effect {
+  transition: transform 0.3s ease; /* Smooth transition for movement */
+}
+
+.hover-effect:hover {
+  transform: translateY(-5px) scale(1.05); /* Move the element up by 5px and scale up by 5% */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Optional: add a shadow for depth */
+}
