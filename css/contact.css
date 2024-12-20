@@ -56,7 +56,6 @@ footer {
 
 .footer-logo {
 width: 150px;
-background-color: rgb(238, 225, 225);
 }
 
 .footer-note {
@@ -123,7 +122,8 @@ white-space: nowrap;
   transition: color 0.3s ease;
 }
 .contact-heading {
-  background-image: url('imges/back.jpeg'); /* Path to your background image */
+  background-image: url('../imges/back.jpeg'); /* Replace with the path to your image */
+
   background-size: cover; /* Make sure the image covers the whole element */
   background-position: center; /* Center the background image */
   color: white; /* Text color */

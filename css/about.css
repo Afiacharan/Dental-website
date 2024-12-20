@@ -16,10 +16,22 @@
   }
   
   /* about-section...................... */
-  .about-heading{
-    color: #1794aa;
-    font-size: 22px;
+  
+  .about-heading {
+    background-image: url('../imges/back.jpeg'); /* Replace with the path to your image */
+
+    background-size: cover; /* Make sure the image covers the whole element */
+    background-position: center; /* Center the background image */
+    color: white; /* Text color */
+    padding: 20px; /* Padding around the text */
+    border-radius: 5px; /* Optional: for rounded corners */
+    display: inline-block; /* Fits the width of the text */
+    height: 200px; /* Set a specific height */
+    width: 100%; /* Optional: make it full-width */
+    text-align: center; /* Center align text */
+    line-height: 200px; /* Center vertically */
   }
+
   i{
     color:#1794aa;
     font-size: 23px;
@@ -42,7 +54,6 @@ footer {
 
 .footer-logo {
 width: 150px;
-background-color: rgb(238, 225, 225);
 }
 
 .footer-note {
@@ -112,23 +123,6 @@ white-space: nowrap;
 .btn{
   background-color:#1794aa;
   color: white;
-}
-
-
-
-
-.contact-heading {
-  background-image: url('imges/back.jpeg'); /* Path to your background image */
-  background-size: cover; /* Make sure the image covers the whole element */
-  background-position: center; /* Center the background image */
-  color: white; /* Text color */
-  padding: 20px; /* Padding around the text */
-  border-radius: 5px; /* Optional: for rounded corners */
-  display: inline-block; /* Fits the width of the text */
-  height: 200px; /* Set a specific height */
-  width: 100%; /* Optional: make it full-width */
-  text-align: center; /* Center align text */
-  line-height: 200px; /* Center vertically */
 }
 
 .hover-effect {
